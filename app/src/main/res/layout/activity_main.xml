@@ -1,0 +1,37 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/etSearch"
+        android:hint="enter name for search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etName"
+        android:hint="enter name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPass"
+        android:hint="enter name for search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/selectallb"
+        android:text="show all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/insertb"
+        android:text="insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <Button
+       android:id="@+id/updateb"
+       android:text="update"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+</LinearLayout>
